@@ -14,7 +14,7 @@ Support for Delphi programmer
 
 ### ⚙️ Running the tests
 
-* To test the code of this project, simply download the executable file, accessible from the folder [Win32/Debug](https://github.com/laertemjr/ControlFocus_en/main/Win32/Debug) from this repository.
+* To test the code of this project, simply download the executable file, accessible from the folder [Win32/Debug](https://github.com/laertemjr/ControlFocus_en/tree/main/Win32/Debug) from this repository.
 
 
 ### 🛠️ Built with
@@ -29,4 +29,4 @@ Support for Delphi programmer
 
 ### 📄 Licença
 
-* This project is licensed under *The Unlicense* - see the file [LICENSE.md](https://github.com/laertemjr/ControlFocus_pt-BR/main/LICENSE.md) for details.
+* This project is licensed under *The Unlicense* - see the file [LICENSE.md](https://github.com/laertemjr/ControlFocus_pt-BR/tree/main/LICENSE.md) for details.
