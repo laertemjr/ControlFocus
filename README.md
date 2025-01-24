@@ -1,5 +1,5 @@
 # ControlFocus_en
-Support for delphi programmer
+Support for Delphi programmer
 <br/>
 <br/>
 ### 📋 Sistema requerido
