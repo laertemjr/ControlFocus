@@ -1,5 +1,5 @@
-# ControlFocus_pt-BR
- Suporte para o programador Delphi
+# ControlFocus_en
+Support for delphi programmer
 <br/>
 <br/>
 ### 📋 Sistema requerido
