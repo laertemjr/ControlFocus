@@ -1,13 +1,13 @@
-unit Unit1;
+unit uControlFocus;
 
 interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ComCtrls;
 
 type
-  TForm1 = class(TForm)
+  TfrmControlFocus = class(TForm)
     ListBox1: TListBox;
     Edit1: TEdit;
     Edit2: TEdit;
@@ -17,6 +17,7 @@ type
     Button1: TButton;
     Button2: TButton;
     Button3: TButton;
+    StatusBar1: TStatusBar;
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
   private
@@ -27,18 +28,18 @@ type
   end;
 
 var
-  Form1: TForm1;
+  frmControlFocus: TfrmControlFocus;
 
 implementation
 
 {$R *.dfm}
 
-procedure TForm1.FormShow(Sender: TObject);
+procedure TfrmControlFocus.FormShow(Sender: TObject);
 begin
    Screen.OnActiveControlChange := ControlChange;
 end;
 
-procedure TForm1.ControlChange(Sender: TObject);
+procedure TfrmControlFocus.ControlChange(Sender: TObject);
 var controle:TWinControl;
 begin
     if ListBox1.CanFocus then
@@ -50,7 +51,7 @@ begin
     end;
 end;
 
-procedure TForm1.FormClose(Sender: TObject; var Action: TCloseAction);
+procedure TfrmControlFocus.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
    Screen.OnActiveControlChange := nil;
 end;
